@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap");
+
+:root {
+  --main-bg-color: rgb(123, 211, 170);
+}
+
+* {
+  font-family: "Source Serif 4", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  height: 9vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-size: 20px;
+}
+header {
+  height: 11vh;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+nav {
+  display: flex;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 91px;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+nav ul {
+  height: 11vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: black;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 24px;
+  border-radius: 2px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+.container {
+  min-height: calc(100vh - 11vh - 9vh);
+}
+.slider {
+  width: 80vw;
+  margin: 1px auto;
+  overflow: hidden;
+}
+.slider img {
+  margin: auto;
+  width: 80vw;
+}
+.card h2 {
+  font-size: 20px;
+  margin: 18px 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item {
+  width: 15vw;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5px;
+}
+.card-item img {
+
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+}
+.lines p {
+  font-size: 14px;
+  font-weight: bold;
+}
